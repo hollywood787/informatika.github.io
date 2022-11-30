@@ -46,7 +46,7 @@ a {
 #hero {
     height: 100vh;
     width: 100%;
-    background-image: url(/assets/i/1642980954_42-phonoteka-org-p-chernii-ekran-fon-46.webp);
+    background-image: url(./assets/i/1642980954_42-phonoteka-org-p-chernii-ekran-fon-46.webp);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
