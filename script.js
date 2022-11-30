@@ -1,4 +1,15 @@
-import { mainParent, ticketItemWhere, ticketItemDate, ticketItemTime, ticketItemRivalLeft, ticketItemRivalRight, options, burgerMenu, menu } from './consts.js'
+import { 
+    mainParent, 
+    ticketItemWhere, 
+    ticketItemDate, 
+    ticketItemTime, 
+    ticketItemRivalLeft, 
+    ticketItemRivalRight, 
+    options, 
+    burgerMenu, 
+    menu,
+    hero,
+} from './consts.js'
 
 const ivents = [
     {
@@ -163,7 +174,7 @@ burgerMenu.addEventListener("click", function() {
 let posX = 0;
 let posY = 0;
 
-document.addEventListener('touchstart', event => {
+hero.addEventListener('touchstart', event => {
   const { clientX, clientY } = event.touches[0];
   
   if (posY < clientY) {
