@@ -99,7 +99,7 @@ header a::after {
     bottom: -5px;
     width: 100%;
     left: 0;
-    background-color: white;
+    background-color: #151515;
     height: 1px;
     transition: all 0.3s ease-in-out;
     opacity: 0;
@@ -286,7 +286,7 @@ header .header__block {
     display: block;
     height: 2px;
     width: 30px;
-    background-color: white;
+    background-color: #151515;
     transition: all 0.2s ease-in-out;
 }
 
