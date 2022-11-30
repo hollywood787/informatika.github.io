@@ -40,15 +40,22 @@ const ivents = [
         "place": "Лес",
         "date": "6 сентября",
         "time": "13:00",
-        "rivalOne": "number11",
-        "rivalTwo": "number12",
+        "rivalOne": "Соперник №11",
+        "rivalTwo": "Соперник №12",
     },
     {
         "place": "Озеро",
         "date": "7 сентября",
         "time": "17:00",
-        "rivalOne": "number13",
-        "rivalTwo": "number14",
+        "rivalOne": "Соперник №13",
+        "rivalTwo": "Соперник №14",
+    },
+    {
+        "place": "Лес",
+        "date": "8 сентября",
+        "time": "17:00",
+        "rivalOne": "Соперник №15",
+        "rivalTwo": "Соперник №16",
     },
 ]
 
