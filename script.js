@@ -176,4 +176,4 @@ document.addEventListener('touchmove', event => {
   
   posX = clientX;
   posY = clientY;
-}
+})
