@@ -163,7 +163,7 @@ burgerMenu.addEventListener("click", function() {
 let posX = 0;
 let posY = 0;
 
-document.addEventListener('touchmove', event => {
+document.addEventListener('touchstart', event => {
   const { clientX, clientY } = event.touches[0];
   
   if (posY < clientY) {
@@ -171,7 +171,7 @@ document.addEventListener('touchmove', event => {
   }
   
   if (posY > clientY) {
-    stylesTwinkIventsDown(atTheMomentActive())
+      stylesTwinkIventsDown(atTheMomentActive())
   }
   
   posX = clientX;
