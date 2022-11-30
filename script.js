@@ -157,3 +157,23 @@ function reserAllStyles() {
 burgerMenu.addEventListener("click", function() {
     menu.classList.toggle(options.active);
 });
+
+
+
+let posX = 0;
+let posY = 0;
+
+document.addEventListener('touchmove', event => {
+  const { clientX, clientY } = event.touches[0];
+  
+  if (posY < clientY) {
+    stylesTwinkIventsUp(atTheMomentActive())
+  }
+  
+  if (posY > clientY) {
+    stylesTwinkIventsDown(atTheMomentActive())
+  }
+  
+  posX = clientX;
+  posY = clientY;
+}
